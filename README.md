@@ -89,10 +89,11 @@ ip.dst==184.87.193.88
 Keyword ini bertujuan untuk melakukan pencarian menuju IP 184.87.193.88
 
 Didapatkan 6 packet yang menuju IP 184.87.193.88
-![img](https://i.ibb.co/JqfGqDb/wireshark-7.jpg)
+![wireshark_7](https://github.com/RenDaemon/Jarkom-Modul-1-IT23-2023/assets/89828723/2177709d-7051-4b89-8b06-0e68c5bb280b)
 
 Lalu, inputkan jawaban tersebut di nc dan didapatkan flag:
-![img](https://i.ibb.co/nmLJW0T/flag-7.jpg)
+![flag_7](https://github.com/RenDaemon/Jarkom-Modul-1-IT23-2023/assets/89828723/a94699b4-4ebe-44c5-8d41-a992b9fa672b)
+
 
 ### Soal 8
 #### Description :
@@ -111,7 +112,8 @@ Karena hanya diminta kueri filter nya, maka inputkan kueri berikut:
 ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
 
 ip.src atau IP Source merupakan IP asal/sumber, sedangkan ip.dst atau IP Destination merupakan IP tujuan. Lalu, input kueri tersebut dengan nc dan didapatkan flag:
-![img](https://i.ibb.co/Sd3j9tt/flag-9.jpg)
+![flag_9](https://github.com/RenDaemon/Jarkom-Modul-1-IT23-2023/assets/89828723/145c8e34-4c1c-4f87-a17b-c6ff13ceb8c2)
+
 
 ### Soal 10
 #### Description :
