@@ -4,7 +4,6 @@
 - [Soal 3](#soal-3)
 - [Soal 4](#soal-4)
 - [Soal 5](#soal-5)
-- [Soal 6](#soal-6)
 - [Soal 7](#soal-7)
 - [Soal 8](#soal-8)
 - [Soal 9](#soal-9)
@@ -79,6 +78,18 @@ jawaban" tersebut diperoleh dari analisis packetnya.
 ![image](https://github.com/RenDaemon/Jarkom-Modul-1-IT23-2023/assets/94961661/a75f5346-e535-4602-ba4f-d2277857f870)Submit semua jawaban, maka akan didapatkan flag.
 ![image](https://github.com/RenDaemon/Jarkom-Modul-1-IT23-2023/assets/94961661/b65b01a6-a85e-474f-af0d-2d7dfd49d601)
 
+### Soal 7
+#### Description :
+Berapa jumlah packet yang menuju IP 184.87.193.88?
+
+#### PoC :
+Dari soal nomor 7 diminta untuk mencari berapa banyak packet yang menuju IP 184.87.193.88 pada file warkshark tersebut. Disini langsung saja mengklik file warkshark yang dimaksud dan melakukan pencarian pada fitur filter dengan keyword berikut :
+ip.dst==184.87.193.88
+
+Keyword ini bertujuan untuk melakukan pencarian menuju IP 184.87.193.88
+
+Didapatkan 6 packet yang menuju IP 184.87.193.88
+
 ### Soal 8
 #### Description :
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
@@ -86,6 +97,13 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 #### PoC :
 Untuk soal no.8 kita hanya perlu untuk submit filtering sesuai dengan yang di soal dengan nc dan akan didapatkan flag.
 ![image](https://github.com/RenDaemon/Jarkom-Modul-1-IT23-2023/assets/94961661/16f56409-f4d5-4f7e-94e6-4d21dac0b987)
+
+### Soal 9
+#### Description :
+Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+
+#### PoC :
+
 
 ### Soal 10
 #### Description :
