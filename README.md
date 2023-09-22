@@ -89,6 +89,10 @@ ip.dst==184.87.193.88
 Keyword ini bertujuan untuk melakukan pencarian menuju IP 184.87.193.88
 
 Didapatkan 6 packet yang menuju IP 184.87.193.88
+![img](https://i.ibb.co/JqfGqDb/wireshark-7.jpg)
+
+Lalu, inputkan jawaban tersebut di nc dan didapatkan flag:
+![img](https://i.ibb.co/nmLJW0T/flag-7.jpg)
 
 ### Soal 8
 #### Description :
@@ -103,7 +107,11 @@ Untuk soal no.8 kita hanya perlu untuk submit filtering sesuai dengan yang di so
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
 #### PoC :
+Karena hanya diminta kueri filter nya, maka inputkan kueri berikut:
+ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
 
+ip.src atau IP Source merupakan IP asal/sumber, sedangkan ip.dst atau IP Destination merupakan IP tujuan. Lalu, input kueri tersebut dengan nc dan didapatkan flag:
+![img](https://i.ibb.co/Sd3j9tt/flag-9.jpg)
 
 ### Soal 10
 #### Description :
